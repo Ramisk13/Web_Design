@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-image: url('Images/Navback.png');
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 100px;
+    padding-left: 100px
+  }
+
+  h3 {
+    font-family:'Pacifico';
+    color: rgb(221, 186, 8);
+    margin-right: 730px;
+  }
+
+  body {
+    background-image: url('Images/backgroundLayers-1.png');
+    z-index: -1;
+  }
+  
+  .terms {
+    padding: 50px;
+  }
+  ul {
+    list-style-type: none; /* Remove the bullets from the list */
+    margin: 0; /* Remove the default margin */
+    padding: 20px; 
+    display: flex; /* Use flexbox to align the menu items horizontally */
+    justify-content: space-between; /* Space the menu items evenly */
+    gap: 50px;
+    
+    
+  }
+  
+  li {
+    flex-basis: 10%; /* Divide the menu items equally */
+  }
+ 
+  
+  li a {
+    margin-bottom: 0px;
+    display: block; /* Set the link to display as a block */
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove the underline from the link */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    
+  }
+  
+  nav ul li a:hover {
+    color: rgb(221, 186, 8);
+  }
+
+  
+
+  
+  
+  ol {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  li {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 0;
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  footer {
+    display: flex;
+    flex-direction:column;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url('Images/Navback.png');
+    height: 185px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .Co {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 186, 8); 
+    padding-top: 10px;
+  }
+  .Co a{
+    justify-content: space-between ;
+    align-items: center;
+    color: white; ;
+    text-decoration: none;
+    
+  }
+  .Co a:hover {
+   color: rgb(221, 186, 8);
+  }
+  .Sm {
+    padding: 0 30px;
+    
+  }
+  
+  #insta {
+    width: 30px;
+    margin-left: 850px;
+  }
+  
+  #Face {
+    width: 30px;
+    margin-left: 20px;
+  }
+  #Youtube {
+    width: 30px;
+    margin-left: 25px;
+    padding-bottom: 5px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+
+  .payment {
+    margin-top: 800px;
+  }
+   
+#line {
+  margin-left: 380px;
+  height: 30px;
+}
+#te {
+  margin-right: 50px;
+  
+}
+ 
+#fa{
+  margin-right: 30px;
+}

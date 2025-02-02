@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Pacifico&display=swap');
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-image: url('Images/Navback.png');
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 100px;
+    padding-left: 100px
+  }
+
+  h3 {
+    font-family:'Pacifico';
+    color: rgb(221, 186, 8);
+    margin-right: 730px;
+    
+  }
+  
+  ul {
+    list-style-type: none; /* Remove the bullets from the list */
+    margin: 0; /* Remove the default margin */
+    padding: 20px; 
+    display: flex; /* Use flexbox to align the menu items horizontally */
+    justify-content: space-between; /* Space the menu items evenly */
+    gap: 50px;
+    
+    
+  }
+  
+  li {
+    flex-basis: 10%; /* Divide the menu items equally */
+  }
+ 
+  
+  li a {
+    margin-bottom: 0px;
+    display: block; /* Set the link to display as a block */
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove the underline from the link */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    
+  }
+  
+  nav ul li a:hover {
+    color: rgb(221, 186, 8);
+  }
+
+
+  footer {
+    display: flex;
+    flex-direction:column;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url('Images/Navback.png');
+    height: 185px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .Co {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(221, 186, 8); 
+    padding-top: 10px;
+  }
+  .Co a{
+    justify-content: space-between ;
+    align-items: center;
+    color: white; ;
+    text-decoration: none;
+    
+  }
+  .Co a:hover {
+   color: rgb(221, 186, 8);
+  }
+  .Sm {
+    padding: 0 30px;
+    
+  }
+  
+  #insta {
+    width: 30px;
+    margin-left: 850px;
+  }
+  
+  #Face {
+    width: 30px;
+    margin-left: 20px;
+  }
+  #Youtube {
+    width: 30px;
+    margin-left: 25px;
+    padding-bottom: 5px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+
+  .payment {
+    margin-top: 800px;
+  }
+   
+#line {
+  margin-left: 380px;
+  height: 30px;
+}
+#te {
+  margin-right: 50px;
+  
+}
+ 
+#fa{
+  margin-right: 30px;
+}
+
+
+
+
+
+
+body {
+    background-image: url('Images/backgroundLayers-1.png');
+    
+}
+
+.main-content {
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif
+}
+
+.contact-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    
+    margin-bottom: 30px;
+}
+
+.contact-info-item {
+    text-align: left;
+    max-width: 500px;
+    color: #333;
+    padding: 0 60px;
+    padding-left: 61px;
+}
+
+.info-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-text {
+    font-size: 1.1rem;
+}
+
+.contact-form-wrapper {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    flex-basis: 100%;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-submit {
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-basis: 100%;
+}
+
+.form-submit:hover {
+    background-color: #f9a602;
+}
